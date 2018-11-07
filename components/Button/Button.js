@@ -1,6 +1,6 @@
 import React from 'react';
 
-const button = ({
+export default ({
   sub,
   onClick
 }) => (
@@ -8,5 +8,3 @@ const button = ({
     {sub}
   </button>
 );
-
-export default button

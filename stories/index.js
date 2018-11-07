@@ -1,19 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import Button from '../components/Button';
-
-const click = () => {
-  console.log('hello world!!');
-}
-  
+import NormalButton from './components/normalButton';
+import EmojButtom  from './components/emojButton';  
 
 storiesOf('Button', module)
   .add('with text', () => (
-    <Button sub = '按钮' onClick={click}>
-    </Button>
+    <NormalButton> </NormalButton>
   ))
   .add('with some emoji', () => (
-    <Button sub = {<span role="img" aria-label="so cool">😀 😎 👍 💯</span>} onClick={click}>
-    </Button>
+    <EmojButtom > </EmojButtom>
   ));
