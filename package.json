@@ -5,8 +5,10 @@
   "dependencies": {
     "@storybook/react": "^3.4.11",
     "babel-core": "^6.26.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "redux": "~4.0.1",
+    "react-redux": "~5.1.1",
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
     "save-dev": "^2.0.0"
   }
 }
